@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Roboto+Condensed&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="phone">
+        <div id="topBar">
+            <p id="time">9:41</p>
+            <div id=rTopBar>
+                <img id="bars" src="bars.png" alt="">
+                <img id="wifi" src="https://purepng.com/public/uploads/large/purepng.com-wifi-icon-whitewifi-iconwifiiconwireless-connection-1701528436347fqglg.png" alt="">
+                <img id="battery" src="battery.png" alt="">
+            </div>
+        </div>
+        <div id="output">
+            <p id="answer"></p>
+        </div>
+
+            <div class="row">
+                <button id="AC" class="lGrey">AC</button>
+                <button id="neg" class="lGrey"><sup>+</sup>/-</button>
+                <button id="percent" class="lGrey">%</button>
+                <button id="divide" class="orange">/</button>
+            </div>
+            <div class="row">
+                <button id="seven" class="dGrey">7</button>
+                <button id="eight" class="dGrey">8</button>
+                <button id="nine" class="dGrey">9</button>
+                <button id="multiply" class="orange">x</button>
+            </div>
+            <div class="row">
+                <button id="four" class="dGrey">4</button>
+                <button id="five" class="dGrey">5</button>
+                <button id="six" class="dGrey">6</button>
+                <button id="subtract" class="orange">—</button>
+            </div>
+            <div class="row">
+                <button id="one" class="dGrey">1</button>
+                <button id="two" class="dGrey">2</button>
+                <button id="three" class="dGrey">3</button>
+                <button id="add" class="orange">+</button>
+            </div>
+            <div class="row">
+                <div id="zeroButton">
+                    <div id="lZero" class="zero"><p id="zeroText">0</p></div>
+                    <div id="cZero" class="zero"></div>
+                    <div id="rZero" class="zero"></div>
+                </div>
+                <button id="point" class="dGrey">.</button>
+                <button id="equals" class="orange">=</button>
+            </div>
+
+            <div id="bottom">
+                <div id="lBottom"></div>
+                <div id="cBottom"></div>
+                <div id="rBottom"></div>
+            </div>
+    </div>
+    
+</body>
+</html>
